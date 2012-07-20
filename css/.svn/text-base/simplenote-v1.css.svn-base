@@ -1,0 +1,90 @@
+/*
+  Title: Simplenote restyled
+ Author: Eric Grossnickle
+    URL: http://mightydream.com
+   Date: 1/4/2010
+*/
+
+
+body {
+	background: #fff !important;
+	overflow-y: hidden !important;
+	}
+
+#wrapper {
+	width: auto !important;
+	}
+#ad {
+	display: none !important;
+	}
+#custom-doc {
+	margin: 0 !important;
+	background: #fff !important;
+	border: none !important;
+	min-width: 270px !important;
+	width: 100% !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	}
+
+
+/* Header
+-------------------------------------------------------------- */
+
+#header {
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	}
+
+
+/* Actions
+-------------------------------------------------------------- */
+
+#hd {
+	padding-right: 20px !important;
+	}
+#search {
+	padding-left: 2% !important;
+	width: 50% !important;
+	}
+	#search label {
+		position: absolute !important;
+		}
+#dt_input {
+	margin-left: 30px !important;
+	width: 100% !important;
+	}
+	#clearSearch a {
+		margin-right: -20px !important;
+		}
+
+
+/* Notes List
+-------------------------------------------------------------- */
+
+#listContainer {
+	background-color: #fff !important;
+	}
+	.landscape #listContainer {
+		width: 38% !important;
+		}
+
+
+/* Status Bar
+-------------------------------------------------------------- */
+
+#status {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	}
+
+
+/* Footer
+-------------------------------------------------------------- */
+
+#ft {
+	display: none !important;
+	}

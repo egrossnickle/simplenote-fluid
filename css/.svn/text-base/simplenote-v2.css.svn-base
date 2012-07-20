@@ -1,0 +1,125 @@
+/*
+  Title: Simplenote restyled
+ Author: Eric Grossnickle
+    URL: http://mightydream.com
+   Date: 10/20/2010
+   Info: Makes version 2 of the web app fill the window when used as a Fluid SSB.
+*/
+
+
+/* scrollbar style adapted from: http://maxvoltar.com/assets/css/master.css */
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+	background-color: #e1e1ea;
+	display: block;
+	height: 1px;
+	}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e1e1ea;
+	-webkit-border-radius: 0;
+	}
+
+::-webkit-scrollbar-thumb:vertical {
+	height: 50px;
+	background-color: #999;
+	-webkit-border-radius: 3px;
+	}
+
+::-webkit-scrollbar-thumb:horizontal {
+	width: 50px;
+	background-color: #ccc;
+	-webkit-border-radius: 3px;
+	}
+
+/* base style tweaks */
+
+h1.logo,
+.footer {
+	display: none !important;
+	}
+
+.header {
+	right: 10px !important;
+	top: 9px !important;
+	}
+
+.wrapper, .app {
+	border: none !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	top: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
+	}
+
+.sidebar {
+	border-right: none !important;
+}
+
+.tagmenu.button .menu {
+	margin-left: 0px !important;
+	}
+.sideview .tagmenu.button .menu .tail {
+	left: 12px !important;
+	}
+
+.notes {
+	left: 0 !important;
+	bottom: 0 !important;
+	}
+
+.note {
+	padding: 10px 5px 10px 15px !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	}
+
+.note ::-webkit-scrollbar-button:start:decrement,
+.note ::-webkit-scrollbar-button:end:increment {
+	background-color: transparent;
+	height: 0;
+	}
+
+.note ::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+	}
+
+#txtarea {
+	height: 100% !important;
+	}
+
+.statusbar {
+	position: absolute !important;
+	right: 25px !important;
+	top: 10px !important;
+}
+.statusbar li:first-child {
+	margin-right: 7px !important;
+	height: 16px !important;
+	width: 16px !important;
+}
+.statusbar li {
+	display: block !important;
+	float: left !important;
+	height: 16px !important;
+	min-width: 1px !important;
+}
+.statusbar .ajaxbusy {
+	float: none !important;
+}
+.statusbar .statusmsg {
+	float: none !important;
+}
