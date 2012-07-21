@@ -32,16 +32,16 @@ function includeFiles(version) {
 	var cssNode = document.createElement('link');
 	cssNode.type = 'text/css';
 	cssNode.rel = 'stylesheet';
-	cssNode.href = 'http://lab.mightydream.dev/simplenote-restyled/css/simplenote-v'+version+'.css';
+	cssNode.href = 'http://lab.mightydream.com/simplenote-restyled/css/simplenote-v'+version+'.css';
 	cssNode.media = 'screen';
 	cssNode.title = 'dynamicLoadedSheet';
 	document.getElementsByTagName("head")[0].appendChild(cssNode);
 	
 	// add favicon
-	var faviconNode = document.createElement('link');
-	faviconNode.rel = 'shortcut icon';
-	faviconNode.href = 'http://lab.mightydream.com/simplenote-restyled/favicon.ico';
-	document.getElementsByTagName("head")[0].appendChild(faviconNode);
+	// var faviconNode = document.createElement('link');
+	// faviconNode.rel = 'shortcut icon';
+	// faviconNode.href = 'http://lab.mightydream.com/simplenote-restyled/favicon.ico';
+	// document.getElementsByTagName("head")[0].appendChild(faviconNode);
 }
 
 function adjustLayout()

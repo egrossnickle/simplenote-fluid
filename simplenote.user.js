@@ -12,5 +12,5 @@
 
 var jsNode = document.createElement('script');
 jsNode.type = 'text/javascript';
-jsNode.src = 'http://lab.mightydream.dev/simplenote-restyled/js/simplenote.js';
+jsNode.src = 'http://lab.mightydream.com/simplenote-restyled/js/simplenote.js';
 document.getElementsByTagName('head')[0].appendChild(jsNode);
